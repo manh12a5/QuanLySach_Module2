@@ -18,6 +18,9 @@ public class Book {
         return number * weight;
     }
 
+    public Book() {
+    }
+
     public Book(String name, String author, int price, int number, double weight) {
         this.name = name;
         this.author = author;
